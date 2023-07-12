@@ -1,0 +1,36 @@
+.VisitedCountryList {
+  list-style-type: none;
+  padding: 0px;
+  background-color: #1f1f2f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.VisitedCountry {
+  margin: 10px;
+}
+
+.image {
+  width: 300px;
+  height: 150px;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.remove-btn {
+  border: none;
+  outline: none;
+  width: 90px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  border: 1px solid #334155;
+  color: white;
+  cursor: pointer;
+}
